@@ -1,0 +1,6 @@
+@CWDev.WorkerAPI_HostAddress = http://localhost:5141
+
+GET {{CWDev.WorkerAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
