@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\CWDev.Core\CWDev.MailArchive.Core.csproj" />
     <ProjectReference Include="..\..\Services\MailProcessing\MailProcessing.csproj" />
+    <ProjectReference Include="..\CWDev.Core\CWDev.MailArchive.Core.csproj" />
   </ItemGroup>
 
 </Project>
