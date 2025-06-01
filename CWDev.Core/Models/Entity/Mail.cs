@@ -6,7 +6,6 @@ public class Mail
 {
     public Guid Id { get; set; }
     public Guid MailboxId { get; private set; } = default!;
-
     public long MailId { get; set; }
 
     public string? Subject { get; private set; }
